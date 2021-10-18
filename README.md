@@ -14,10 +14,9 @@ This site is made to ensure your good health `MediCare`
 
 ## Learn More
 
-<ul>
-<li>Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)</li>
-<li>Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)</li>
-</ul>
+Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+<br />
+Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 # Assignment-9
 
