@@ -1,6 +1,6 @@
-# Feeling sick? Visit Meditek, We are here for you..
+# Feeling sick? Visit MediCare, We are here for you..
 
-This site is made to ensure your good health `Meditek`
+This site is made to ensure your good health `MediCare`
 
 ## `Services:`
 

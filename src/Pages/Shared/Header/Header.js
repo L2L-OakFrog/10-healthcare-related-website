@@ -40,9 +40,12 @@ const Header = () => {
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         </Nav>
                         <Nav className="justify-content-end">
-                            <Navbar.Text>
-                                Signed in as: <a href="#login">{user?.displayName}</a>
-                            </Navbar.Text>
+                            {user?.email ?
+                                <Navbar.Text>
+                                    Welcome! <a href="#login">{user?.displayName}</a>
+                                </Navbar.Text> :
+                                <Navbar.Text>Have an account?</Navbar.Text>
+                            }
                             {user?.email ?
                                 <Button onClick={logout} variant="light ms-2">Log out {LogOutIcon}</Button> :
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>

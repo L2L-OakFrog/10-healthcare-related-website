@@ -10,6 +10,7 @@ import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login';
 import AuthProvide from './Context/AuthProvide';
+import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -25,12 +26,12 @@ function App() {
               <Route path='/home'>
                 <Home></Home>
               </Route>
-              <Route path='/services'>
+              <PrivateRoute path='/services'>
                 <Services></Services>
-              </Route>
-              <Route path='/doctors'>
+              </PrivateRoute>
+              <PrivateRoute path='/doctors'>
                 <Doctors></Doctors>
-              </Route>
+              </PrivateRoute>
               <Route path='/contact'>
                 <Contact></Contact>
               </Route>
