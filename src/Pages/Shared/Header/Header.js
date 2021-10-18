@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 import useAuth from '../../../Hooks/UseAuth';
+import './Header.css';
 
 const Header = () => {
     const LogOutIcon = <FontAwesomeIcon icon={faSignOutAlt} />

@@ -15,6 +15,7 @@ This site is made to ensure your good health `MediCare`
 ## Learn More
 
 Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+<br />
 Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 # Assignment-9
@@ -62,6 +63,7 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 3. Install React Bootstrap, ✔
 4. Install Font Awesome, ✔
 5. Install Hash Link, ✔
+5. Install React Hook Form, ✔
 
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/

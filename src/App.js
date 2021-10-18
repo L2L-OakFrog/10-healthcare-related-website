@@ -19,29 +19,31 @@ function App() {
         <Router>
           <div className="App">
             <Header></Header>
-            <Switch>
-              <Route exact path='/'>
-                <Home></Home>
-              </Route>
-              <Route path='/home'>
-                <Home></Home>
-              </Route>
-              <PrivateRoute path='/services'>
-                <Services></Services>
-              </PrivateRoute>
-              <PrivateRoute path='/doctors'>
-                <Doctors></Doctors>
-              </PrivateRoute>
-              <Route path='/contact'>
-                <Contact></Contact>
-              </Route>
-              <Route path='/login'>
-                <Login></Login>
-              </Route>
-              <Route path='*'>
-                <NotFound></NotFound>
-              </Route>
-            </Switch>
+            <div className="container routes">
+              <Switch>
+                <Route exact path='/'>
+                  <Home></Home>
+                </Route>
+                <Route path='/home'>
+                  <Home></Home>
+                </Route>
+                <PrivateRoute path='/services'>
+                  <Services></Services>
+                </PrivateRoute>
+                <PrivateRoute path='/doctors'>
+                  <Doctors></Doctors>
+                </PrivateRoute>
+                <Route path='/contact'>
+                  <Contact></Contact>
+                </Route>
+                <Route path='/login'>
+                  <Login></Login>
+                </Route>
+                <Route path='*'>
+                  <NotFound></NotFound>
+                </Route>
+              </Switch>
+            </div>
           </div>
           <div className="footer">
             <Footer></Footer>
