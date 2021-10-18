@@ -4,21 +4,17 @@ This site is made to ensure your good health `Meditek`
 
 ## `Services:`
 
-1. You can choose from various available services in our website;
-2. Check every details of your chosen services & make an appointment;
-3. Preview our team of Doctors and Check their every details.;
-4. Browse our gallery to check our healthy environment;
-5. Create an account in our website to get future services and discounts if available.
+<ul>
+<li>You can choose from various available services in our website;</li>
+<li>Check every details of your chosen services & make an appointment;</li>
+<li>Preview our team of Doctors and Check their every details.;</li>
+<li>Browse our gallery to check our healthy environment;</li>
+<li>Create an account in our website to get future services and discounts if available.</li>
+</ul>
 
 ## Learn More
 
 Click Here: [Live Site]()
-
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
 
 # Assignment-9
 
