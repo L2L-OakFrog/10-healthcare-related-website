@@ -14,7 +14,8 @@ This site is made to ensure your good health `MediCare`
 
 ## Learn More
 
-Click Here: [Live Site]()
+Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 # Assignment-9
 
@@ -62,5 +63,6 @@ Click Here: [Live Site]()
 4. Install Font Awesome, ✔
 5. Install Hash Link, ✔
 
-### Live Site: 
+### Live Site (Firebase): https://assignment-10-d8235.web.app/
+### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
 ### GitHub: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-L2L-OakFrog
