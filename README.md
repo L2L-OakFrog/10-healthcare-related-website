@@ -44,7 +44,7 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 11. Implement `Private Route` with login access; ✔
 
-12. Implement `Dynamic Route` with button click; 
+12. Implement `Dynamic Route` with button click; ✔
 
 13. Create `buttons` with active functionality; ✔
 
@@ -54,7 +54,7 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 1. `Responsive`; ✔
 2. `Context API`; ✔
-3. `Dynamic Route`;
+3. `Dynamic Route`; ✔
 4. `Local Storage` (optional);
 5. `Variation in Design`; ✔
 6. `Organized Codes`; ✔

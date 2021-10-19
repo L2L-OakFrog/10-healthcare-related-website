@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import "./SingleDoctor.css";
 
 const SingleDoctor = (props) => {
-    const { name, image, details, resident, age } = props.doctor;
+    const { id, name, image, details, resident, age } = props.doctor;
     const styles =
     {
         textDecoration: 'none',
@@ -21,7 +21,7 @@ const SingleDoctor = (props) => {
                     <Card.Text>Age: {age}</Card.Text>
                     <Card.Text>From: {resident}</Card.Text>
                     <br />
-                    <Button variant="outline-primary"><NavLink style={styles} to='/*'>Connect</NavLink></Button>{' '}
+                    <Button variant="outline-primary"><NavLink style={styles} to={`/doctordetail/${id}`}>Connect</NavLink></Button>{' '}
                 </Card.Body>
             </Card>
         </Col>

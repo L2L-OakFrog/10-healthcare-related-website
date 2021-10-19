@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const SingleService = (props) => {
     const styles =
@@ -9,7 +9,7 @@ const SingleService = (props) => {
         fontWeight: "bold",
         color: "black",
     }
-    const { name, image, description, price, doctors } = props.service;
+    const { id, name, image, description, price, doctors } = props.service;
     return (
         <Col xs={12} md={6} lg={4} className='mb-2 doctor'>
             <Card className='card'>
@@ -22,7 +22,8 @@ const SingleService = (props) => {
                         <ListGroupItem><strong>Price:</strong> ${price}</ListGroupItem>
                     </ListGroup>
                     <br />
-                    <Button variant="outline-primary"><NavLink style={styles} to='*'>Details</NavLink></Button>{' '}
+                    {/* <Link to={``}></Link> */}
+                    <Button variant="outline-primary"><NavLink style={styles} to={`/servicedetail/${id}`}>Details</NavLink></Button>{' '}
                 </Card.Body>
             </Card>
         </Col>

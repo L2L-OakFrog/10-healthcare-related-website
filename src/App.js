@@ -12,6 +12,8 @@ import Login from './Pages/Login/Login';
 import AuthProvide from './Context/AuthProvide';
 import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
 import Gallery from './Pages/Gallery/Gallery';
+import ServiceDetail from './Pages/Detail/ServiceDetail';
+import DoctorDetail from './Pages/Detail/DoctorDetail';
 
 function App() {
   return (
@@ -44,6 +46,12 @@ function App() {
                 </Route>
                 <Route path='/login'>
                   <Login></Login>
+                </Route>
+                <Route path='/servicedetail/:serviceId'>
+                  <ServiceDetail></ServiceDetail>
+                </Route>
+                <Route path='/doctordetail/:doctorId'>
+                  <DoctorDetail></DoctorDetail>
                 </Route>
                 <Route path='*'>
                   <NotFound></NotFound>
