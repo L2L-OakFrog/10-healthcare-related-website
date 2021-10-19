@@ -1,9 +1,12 @@
 import React from 'react';
+import FullServices from './FullServices/FullServices';
 
 const Services = () => {
     return (
-        <div>
-            <h1>services</h1>
+        <div className='container'>
+            <h1>Our Services</h1>
+            <hr />
+            <FullServices></FullServices>
         </div>
     );
 };

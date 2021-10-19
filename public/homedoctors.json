@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Ashleigh Reid",
+        "age": 41,
+        "resident": "Australia",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2020/03/PHM0420TD16-1280x720.jpg",
+        "details": "P.h.D in Dermatology"
+    },
+    {
+        "id": 2,
+        "name": "Dr Mary Somers",
+        "age": 35,
+        "resident": "Australia",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2021/05/PHM0421TD_Docs01-1280x720.jpg",
+        "details": "Pediatric Endocrinology"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Steve Reis.",
+        "age": 41,
+        "resident": "USA",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2020/03/PHM0420TD13-1280x720.jpg",
+        "details": "Child and Adolescent Psychiatry"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Emily parker",
+        "age": 41,
+        "resident": "Canada",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2020/03/PHM0420TD12-1280x720.jpg",
+        "details": "Internal Medicine"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Peter smith",
+        "age": 41,
+        "resident": "Germany",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2020/03/PHM0420TD15-1280x720.jpg",
+        "details": "Allergy/Immunology"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Rod Reis",
+        "age": 41,
+        "resident": "USA",
+        "image": "https://www.phoenixmag.com/wp-content/uploads/2020/03/PHM0420TD08-1280x720.jpg",
+        "details": "Orthopedic Surgery of the Spine"
+    }
+]

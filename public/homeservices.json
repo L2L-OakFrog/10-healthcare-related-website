@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dental Checkup",
+        "image": "https://i.ibb.co/0n6ZtVj/dentist-with-smile-144627-886.pngs",
+        "description": "Dont forget to track your teeth healths",
+        "price": 35,
+        "doctors": "Dr. Ashleigh Reid"
+    },
+    {
+        "id": 2,
+        "name": "Diabetes Checkup",
+        "image": "https://i.ibb.co/ZKQTsqK/diabetes-elements-collection-1212-405-1.png",
+        "description": "Keep track of your sugar levels",
+        "price": 30,
+        "doctors": "Dr Mary Somers"
+    },
+    {
+        "id": 3,
+        "name": "Family Medicine",
+        "image": "https://i.ibb.co/ZxmDd5j/medicine-flat-design-1212-670.png",
+        "description": "Families health matters",
+        "price": 15,
+        "doctors": "Dr. Steve Reis."
+    },
+    {
+        "id": 4,
+        "name": "Kidney Donation",
+        "image": "https://i.ibb.co/WstDg1Q/informative-illustration-kidney-stones-1308-47247.png",
+        "description": "Kidney Donation availability",
+        "price": 100,
+        "doctors": "Dr. Emily parker"
+    },
+    {
+        "id": 5,
+        "name": "Allergy Treatment",
+        "image": "https://i.ibb.co/SJjRd3V/allergy-concept-with-symptoms-treatment-common-allergens-symbols-cartoon-1284-55530.png",
+        "description": "Keep track of your Allergy Problems",
+        "price": 10,
+        "doctors": "Dr. Peter smith"
+    },
+    {
+        "id": 6,
+        "name": "Blood Management Program",
+        "image": "https://i.ibb.co/K0dYtHZ/give-blood-background-1057-1029.png",
+        "description": "Blood Donation",
+        "price": 10,
+        "doctors": "Dr. Rod Reis"
+    }
+]

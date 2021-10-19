@@ -1,6 +1,6 @@
-# Feeling sick? Visit MediCare, We are here for you..
+# Feeling Unusual? Visit MediCare, We are here for you..
 
-This site is made to ensure your good health `MediCare`
+This site is made to ensure your good health `MediCare Because We care`
 
 ## `Services:`
 
@@ -24,7 +24,7 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 1. Decide the `theme & name of website` based on healthcare related services; ✔
 
-2. Create `fake Data` based on the theme;
+2. Create `fake Data` based on the theme; ✔
 
 3. Use `Max. 1 CSS Framework` (React-Bootstarp, Material UI, Tailwind etc.); ✔
 
@@ -34,21 +34,25 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 6. Show a broken link `404 Error` page; ✔
 
-7. Create something unique in the `top banner` in Home page;
+7. Create something unique in the `top banner` in Home page; ✔
 
-8. Show featured `6 Services` in Home page with `name,image,short description,detail button`;
+8. Show featured `6 Services` in Home page with `name,image,short description,detail button`; ✔
 
-8. Create something `top banner` in Home page;
+9. Create something `Extra` in Home page; ✔
 
-9. Implement `Login-Logout` in header and page; 
+10. Implement `Login-Logout` in header and page; ✔
 
-10. Implement `Private Route` with login access; 
+11. Implement `Private Route` with login access; ✔
 
-11. Create `buttons` with active functionality;
+12. Implement `Dynamic Route` with button click; 
+
+13. Create `buttons` with active functionality; ✔
+
+14. Show `User Name` after login. ✔
 
 ## Bonus:
 
-1. `Responsive`;
+1. `Responsive`; ✔
 2. `Context API`; ✔
 3. `Dynamic Route`;
 4. `Local Storage` (optional);

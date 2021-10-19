@@ -1,0 +1,15 @@
+.about-container
+{
+    text-align: center;
+}
+.connect-container
+{
+    margin: 20px 0;
+
+}
+.contacts:hover
+{
+    background-color: rgb(242, 255, 255);
+    transition: 1s;
+    border-radius: 10px;
+}

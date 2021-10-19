@@ -11,14 +11,17 @@ import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login';
 import AuthProvide from './Context/AuthProvide';
 import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
+import Gallery from './Pages/Gallery/Gallery';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <AuthProvide>
         <Router>
-          <div className="App">
-            <Header></Header>
+          <div className="contents">
+            <div className="header">
+              <Header></Header>
+            </div>
             <div className="container routes">
               <Switch>
                 <Route exact path='/'>
@@ -33,6 +36,9 @@ function App() {
                 <PrivateRoute path='/doctors'>
                   <Doctors></Doctors>
                 </PrivateRoute>
+                <Route path='/gallery'>
+                  <Gallery />
+                </Route>
                 <Route path='/contact'>
                   <Contact></Contact>
                 </Route>
@@ -45,10 +51,10 @@ function App() {
               </Switch>
             </div>
           </div>
-          <div className="footer">
-            <Footer></Footer>
-          </div>
         </Router>
+        <div className="footer">
+          <Footer></Footer>
+        </div>
       </AuthProvide>
     </div >
 

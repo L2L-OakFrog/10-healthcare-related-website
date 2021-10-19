@@ -12,7 +12,7 @@ const Header = () => {
     const { user, logout } = useAuth();
     return (
         <div>
-            <Navbar sticky="top" collapseOnSelect expand="lg" bg="primary" variant="dark">
+            <Navbar fixed="top" collapseOnSelect expand="lg" bg="primary" variant="dark">
                 <Container>
                     {/* Logo & Name */}
                     <Navbar.Brand href="#home">
@@ -38,7 +38,8 @@ const Header = () => {
                                 <NavDropdown.Item as={HashLink} to="/home#featured-doctors">Top Doctors</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/doctors">Our Team</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                         </Nav>
                         <Nav className="justify-content-end">
                             {user?.email ?
