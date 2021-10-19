@@ -29,7 +29,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse>
                         <Nav className="me-auto">
-                            <Nav.Link as={HashLink} to="/home#about">Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                             <NavDropdown title="Services" id="collasible-nav-dropdown">
                                 <NavDropdown.Item as={HashLink} to="/home#featured-services">Top Services</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/services">Services</NavDropdown.Item>
