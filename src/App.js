@@ -65,7 +65,6 @@ function App() {
         </div>
       </AuthProvide>
     </div >
-
   );
 }
 export default App;
