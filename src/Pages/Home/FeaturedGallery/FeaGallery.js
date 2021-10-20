@@ -19,28 +19,28 @@ const FeaGallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i.ibb.co/p0LsBWj/doctor-explining-child-functions-heart-using-tablet-wearing-facial-protection-pediatrician-specialis.png"
+                        src="https://image.freepik.com/free-photo/nurse-talking-with-child-writing-girl-symptoms-laptop-physician-doctor-specialist-medicine-providing-health-care-services-consultation-diagnostic-examination-treatment-hospital-cabinet_482257-14530.jpg"
                         alt=""
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i.ibb.co/kGtnS3Y/doctor-giving-presentation-team-interim-doctors-107420-84781.png"
+                        src="https://image.freepik.com/free-photo/doctor-giving-presentation-team-interim-doctors_107420-84781.jpg"
                         alt=""
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i.ibb.co/F43vxCk/female-doctor-putting-oxygen-mask-patient-face-107420-63869.png"
+                        src="https://image.freepik.com/free-photo/doctor-explining-child-functions-heart-using-tablet-wearing-facial-protection-pediatrician-specialist-with-gloves-providing-health-care-services-consultations-treatment-during-covid-19_482257-14509.jpg"
                         alt=""
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i.ibb.co/bK2M2vV/nurse-talking-with-child-writing-girl-symptoms-laptop-physician-doctor-specialist-medicine-providing.png"
+                        src="https://image.freepik.com/free-photo/female-doctor-putting-oxygen-mask-patient-face_107420-63869.jpg"
                         alt=""
                     />
                 </Carousel.Item>
