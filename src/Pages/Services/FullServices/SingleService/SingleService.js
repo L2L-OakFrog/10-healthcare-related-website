@@ -23,7 +23,7 @@ const SingleService = (props) => {
                     </ListGroup>
                     <br />
                     {/* <Link to={``}></Link> */}
-                    <Button variant="outline-primary"><NavLink style={styles} to={`/servicedetail/${id}`}>Details</NavLink></Button>{' '}
+                    <Button variant="outline-primary"><NavLink style={styles} to={`/servicedetail/${id}/`}>Details</NavLink></Button>{' '}
                 </Card.Body>
             </Card>
         </Col>

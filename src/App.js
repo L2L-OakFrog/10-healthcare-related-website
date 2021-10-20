@@ -47,10 +47,10 @@ function App() {
                 <Route path='/login'>
                   <Login></Login>
                 </Route>
-                <Route path='/servicedetail/:serviceId'>
+                <Route exact path='/servicedetail/:srvId'>
                   <ServiceDetail></ServiceDetail>
                 </Route>
-                <Route path='/doctordetail/:doctorId'>
+                <Route exact path='/doctordetail/:docId'>
                   <DoctorDetail></DoctorDetail>
                 </Route>
                 <Route path='*'>

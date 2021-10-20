@@ -33,7 +33,7 @@ const useFirebase = () => {
             setError('Password should be minimum 6 characters')
             return;
         }
-        login ? signInUsingEmail(email, password) : createWithEmailAndPassword(email, password, name)
+        login ? signInUsingEmail(email, password, name) : createWithEmailAndPassword(email, password, name)
     }
 
     const createWithEmailAndPassword = (email, password, name) => {
@@ -41,17 +41,27 @@ const useFirebase = () => {
             .then((result) => {
                 setUser(result.user);
                 result.user.displayName = name;
-                setName(name);
+                setName(result.user.displayName);
                 console.log(result.user);
                 setError("");
+            })
+            .catch((error) => {
+                setError(error.message);
             });
     }
-    const signInUsingEmail = (email, password) => {
+    const signInUsingEmail = (email, password, name) => {
         setLoading(true);
-        signInWithEmailAndPassword(auth, email, password)
+        signInWithEmailAndPassword(auth, email, password, name)
             .then((result) => {
                 setUser(result.user);
+                result.user.displayName = name;
+                setName(result.user.displayName);
+                setError("");
                 console.log(result.user);
+            })
+            .catch((error) => {
+                console.log(error);
+                setError(error.message);
             })
             .finally(() => setLoading(false));
     }
@@ -61,11 +71,15 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         setLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                setUser(result.user);
-            })
-            .finally(() => setLoading(false));
+        return signInWithPopup(auth, googleProvider)
+        /* .then((result) => {
+            setUser(result.user);
+            setError("");
+        })
+        .catch((error) => {
+            setError(error.message);
+        })
+        .finally(() => setLoading(false)); */
     }
 
     /* Observer */
@@ -73,8 +87,10 @@ const useFirebase = () => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
+                setName(user.displayName);
             } else {
                 setUser({});
+                setName("");
             }
             setLoading(false);
         });

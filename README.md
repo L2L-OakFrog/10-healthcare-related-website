@@ -69,6 +69,11 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 5. Install Hash Link, ✔
 5. Install React Hook Form, ✔
 
+## Imp:
+
+1. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Firebase Deploy),
+2. {"hosting": {"public": "build","rewrites": [{"source": "** ","destination": "/index.html"}],"ignore": [ "firebase.json","** /.*","** /node_modules/**"]}} (404 reload issue **turn on auto-format),
+
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
 ### GitHub: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-L2L-OakFrog

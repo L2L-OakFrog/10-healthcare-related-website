@@ -1,15 +1,27 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../Hooks/UseAuth';
 import "./Login.css";
 
 const Login = () => {
     const { login, error, signInUsingGoogle, handleName, handleEmail, handlePassword, handleLogin, handleRegister } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_url = location.state?.from || '/home';
+
+    const handleGoogle = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_url);
+            })
+    }
+
     return (
         <div className="login-container">
             <div>
                 <Form className="container">
-                    {login ? " " :
+                    {login ? "" :
                         <div>
                             <Form.Group className="mb-3" controlId="formBasicName">
                                 <Form.Label>User name</Form.Label>
@@ -40,7 +52,7 @@ const Login = () => {
                 </Form>
                 <br />
                 <div className="middle">
-                    <Button onClick={signInUsingGoogle} variant="primary" type="submit">
+                    <Button onClick={handleGoogle} variant="primary" type="submit">
                         Google Login
                     </Button>
                 </div>

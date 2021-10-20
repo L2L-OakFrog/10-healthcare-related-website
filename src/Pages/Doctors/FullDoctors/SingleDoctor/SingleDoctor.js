@@ -21,7 +21,7 @@ const SingleDoctor = (props) => {
                     <Card.Text>Age: {age}</Card.Text>
                     <Card.Text>From: {resident}</Card.Text>
                     <br />
-                    <Button variant="outline-primary"><NavLink style={styles} to={`/doctordetail/${id}`}>Connect</NavLink></Button>{' '}
+                    <Button variant="outline-primary"><NavLink style={styles} to={`/doctordetail/${id}/`}>Connect</NavLink></Button>{' '}
                 </Card.Body>
             </Card>
         </Col>
