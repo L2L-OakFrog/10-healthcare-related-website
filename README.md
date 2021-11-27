@@ -18,7 +18,7 @@ Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
 <br />
 Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
-# Assignment-9
+# Assignment-10
 
 ## To-Do:
 
